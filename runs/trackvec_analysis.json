@@ -1,0 +1,138 @@
+{
+  "calibration": {
+    "vecD": 251.70589988069105,
+    "lam": 2.0024633748678595
+  },
+  "rows": [
+    {
+      "run": "cmsg-inj015a",
+      "vecD": [
+        false,
+        0,
+        null
+      ],
+      "vecD_nalarms": 0,
+      "lam": [
+        false,
+        0,
+        null
+      ],
+      "lam_nalarms": 0
+    },
+    {
+      "run": "cmsg-inj015b",
+      "vecD": [
+        false,
+        10,
+        null
+      ],
+      "vecD_nalarms": 10,
+      "lam": [
+        true,
+        0,
+        30
+      ],
+      "lam_nalarms": 8
+    },
+    {
+      "run": "cmsg-inj030a",
+      "vecD": [
+        false,
+        0,
+        null
+      ],
+      "vecD_nalarms": 0,
+      "lam": [
+        false,
+        0,
+        null
+      ],
+      "lam_nalarms": 0
+    },
+    {
+      "run": "cmsg-inj030b",
+      "vecD": [
+        false,
+        0,
+        null
+      ],
+      "vecD_nalarms": 0,
+      "lam": [
+        false,
+        6,
+        null
+      ],
+      "lam_nalarms": 6
+    },
+    {
+      "run": "cmsg-inj050a",
+      "vecD": [
+        false,
+        0,
+        null
+      ],
+      "vecD_nalarms": 0,
+      "lam": [
+        true,
+        1,
+        3
+      ],
+      "lam_nalarms": 10
+    },
+    {
+      "run": "cmsg-inj050b",
+      "vecD": [
+        false,
+        0,
+        null
+      ],
+      "vecD_nalarms": 0,
+      "lam": [
+        false,
+        0,
+        null
+      ],
+      "lam_nalarms": 0
+    },
+    {
+      "run": "cmsg-sc06a",
+      "vecD": [
+        false,
+        0,
+        null
+      ],
+      "vecD_nalarms": 0,
+      "lam": [
+        false,
+        0,
+        null
+      ],
+      "lam_nalarms": 0
+    },
+    {
+      "run": "cmsg-sc06b",
+      "vecD": [
+        false,
+        0,
+        null
+      ],
+      "vecD_nalarms": 0,
+      "lam": [
+        false,
+        0,
+        null
+      ],
+      "lam_nalarms": 0
+    }
+  ],
+  "totals": {
+    "vecD": 0,
+    "lam": 2
+  },
+  "fps": {
+    "vecD": 10,
+    "lam": 7
+  },
+  "inject_seg_idx": 100,
+  "tol": 40
+}

@@ -1,0 +1,96 @@
+{
+ "dataset": "email-eu",
+ "thr": 0.0010825739515259488,
+ "cp": 100,
+ "tol": 40,
+ "tp": 6,
+ "n_cp": 8,
+ "fp": 12,
+ "precision": 0.3333333333333333,
+ "recall_ci95": [
+  0.40926987910258916,
+  0.9285223111419724
+ ],
+ "per_run": [
+  {
+   "tag": [
+    "del",
+    0.15,
+    1
+   ],
+   "det": true,
+   "fp": 0,
+   "delay": 0
+  },
+  {
+   "tag": [
+    "del",
+    0.15,
+    2
+   ],
+   "det": true,
+   "fp": 0,
+   "delay": 0
+  },
+  {
+   "tag": [
+    "del",
+    0.3,
+    1
+   ],
+   "det": true,
+   "fp": 2,
+   "delay": 0
+  },
+  {
+   "tag": [
+    "del",
+    0.3,
+    2
+   ],
+   "det": true,
+   "fp": 2,
+   "delay": 0
+  },
+  {
+   "tag": [
+    "del",
+    0.5,
+    1
+   ],
+   "det": true,
+   "fp": 4,
+   "delay": 0
+  },
+  {
+   "tag": [
+    "del",
+    0.5,
+    2
+   ],
+   "det": true,
+   "fp": 4,
+   "delay": 0
+  },
+  {
+   "tag": [
+    "scale",
+    0.6,
+    1
+   ],
+   "det": false,
+   "fp": 0,
+   "delay": null
+  },
+  {
+   "tag": [
+    "scale",
+    0.6,
+    2
+   ],
+   "det": false,
+   "fp": 0,
+   "delay": null
+  }
+ ]
+}

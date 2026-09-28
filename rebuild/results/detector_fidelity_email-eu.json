@@ -1,0 +1,25 @@
+{
+ "dataset": "email-eu",
+ "stationary0": 300,
+ "cp": 100,
+ "tol": 40,
+ "n_points": 1404,
+ "spearman_r": 0.8706897960520725,
+ "log10_pearson_r": 0.8563327453413658,
+ "median_abs_err": 1.2368445267973982e-07,
+ "median_rel_err": 0.17922778808310313,
+ "log10_ratio_median": -0.02293057859764194,
+ "log10_ratio_iqr": [
+  -0.11697447430747354,
+  0.018276190273793024
+ ],
+ "threshold_common": 50.60680536166976,
+ "threshold_tracked_own": 61.65656409071807,
+ "alarm_agreement_common": {
+  "ex": 8,
+  "tr": 7,
+  "agree_det": 7,
+  "agree_miss": 0,
+  "total": 8
+ }
+}

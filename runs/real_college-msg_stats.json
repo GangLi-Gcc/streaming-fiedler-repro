@@ -1,0 +1,17 @@
+{
+  "dataset": "college-msg",
+  "stats": {
+    "lam_mean": 0.4273363049041669,
+    "lam_std": 3.2544963494574555,
+    "wander_ratio": 7.615773132561949,
+    "inc_std": 1.8948866485407132,
+    "inc_mean": 0.14326926213908472,
+    "max_abs_window_z": 0.2678757869583557,
+    "p99_abs_window_z": 0.1185379437667734,
+    "samples": 177,
+    "sample_every_edges": 250,
+    "baseline_avg_time_ms": 8.854520904415914
+  },
+  "tau_edges": 7500,
+  "n_nodes": 500
+}

@@ -1,0 +1,423 @@
+{
+ "dataset": "email-eu",
+ "stationary0": 300,
+ "cp": 100,
+ "tol": 40,
+ "n_seg": 166,
+ "calibration": {
+  "LAD": 0.00017165039747555187,
+  "LAD_small": 4.874017378264849e-05,
+  "lam": 2674.3938722109156,
+  "vecD": 50.60680710520612,
+  "lam_trk": 2649.998291331273,
+  "vecD_trk": 61.65656395202521
+ },
+ "valid_nonevent_pooled": {
+  "LAD": 912,
+  "LAD_small": 912,
+  "lam": 680,
+  "vecD": 600,
+  "lam_trk": 680,
+  "vecD_trk": 600
+ },
+ "rows": [
+  {
+   "run": "inj015a",
+   "LAD": [
+    true,
+    0,
+    0
+   ],
+   "LAD_small": [
+    true,
+    0,
+    0
+   ],
+   "lam": [
+    true,
+    0,
+    13
+   ],
+   "vecD": [
+    true,
+    0,
+    5
+   ],
+   "lam_trk": [
+    true,
+    0,
+    19
+   ],
+   "vecD_trk": [
+    true,
+    0,
+    6
+   ],
+   "LAD_n": 1,
+   "LAD_small_n": 1,
+   "lam_n": 1,
+   "vecD_n": 1,
+   "lam_trk_n": 1,
+   "vecD_trk_n": 1
+  },
+  {
+   "run": "inj015b",
+   "LAD": [
+    true,
+    0,
+    0
+   ],
+   "LAD_small": [
+    true,
+    0,
+    0
+   ],
+   "lam": [
+    false,
+    0,
+    null
+   ],
+   "vecD": [
+    true,
+    0,
+    6
+   ],
+   "lam_trk": [
+    false,
+    0,
+    null
+   ],
+   "vecD_trk": [
+    false,
+    0,
+    null
+   ],
+   "LAD_n": 1,
+   "LAD_small_n": 1,
+   "lam_n": 0,
+   "vecD_n": 1,
+   "lam_trk_n": 0,
+   "vecD_trk_n": 0
+  },
+  {
+   "run": "inj030a",
+   "LAD": [
+    true,
+    0,
+    0
+   ],
+   "LAD_small": [
+    true,
+    3,
+    0
+   ],
+   "lam": [
+    false,
+    0,
+    null
+   ],
+   "vecD": [
+    true,
+    0,
+    5
+   ],
+   "lam_trk": [
+    false,
+    0,
+    null
+   ],
+   "vecD_trk": [
+    true,
+    0,
+    6
+   ],
+   "LAD_n": 1,
+   "LAD_small_n": 4,
+   "lam_n": 0,
+   "vecD_n": 1,
+   "lam_trk_n": 0,
+   "vecD_trk_n": 1
+  },
+  {
+   "run": "inj030b",
+   "LAD": [
+    true,
+    0,
+    0
+   ],
+   "LAD_small": [
+    true,
+    2,
+    0
+   ],
+   "lam": [
+    true,
+    0,
+    11
+   ],
+   "vecD": [
+    true,
+    0,
+    5
+   ],
+   "lam_trk": [
+    true,
+    0,
+    13
+   ],
+   "vecD_trk": [
+    true,
+    0,
+    6
+   ],
+   "LAD_n": 1,
+   "LAD_small_n": 3,
+   "lam_n": 1,
+   "vecD_n": 1,
+   "lam_trk_n": 1,
+   "vecD_trk_n": 1
+  },
+  {
+   "run": "inj050a",
+   "LAD": [
+    true,
+    0,
+    0
+   ],
+   "LAD_small": [
+    true,
+    6,
+    0
+   ],
+   "lam": [
+    true,
+    5,
+    5
+   ],
+   "vecD": [
+    true,
+    24,
+    5
+   ],
+   "lam_trk": [
+    true,
+    2,
+    5
+   ],
+   "vecD_trk": [
+    true,
+    13,
+    6
+   ],
+   "LAD_n": 1,
+   "LAD_small_n": 7,
+   "lam_n": 6,
+   "vecD_n": 25,
+   "lam_trk_n": 3,
+   "vecD_trk_n": 14
+  },
+  {
+   "run": "inj050b",
+   "LAD": [
+    true,
+    0,
+    0
+   ],
+   "LAD_small": [
+    true,
+    2,
+    0
+   ],
+   "lam": [
+    false,
+    0,
+    null
+   ],
+   "vecD": [
+    true,
+    0,
+    5
+   ],
+   "lam_trk": [
+    false,
+    0,
+    null
+   ],
+   "vecD_trk": [
+    true,
+    0,
+    5
+   ],
+   "LAD_n": 1,
+   "LAD_small_n": 3,
+   "lam_n": 0,
+   "vecD_n": 1,
+   "lam_trk_n": 0,
+   "vecD_trk_n": 1
+  },
+  {
+   "run": "sc06a",
+   "LAD": [
+    false,
+    0,
+    null
+   ],
+   "LAD_small": [
+    false,
+    0,
+    null
+   ],
+   "lam": [
+    true,
+    0,
+    11
+   ],
+   "vecD": [
+    true,
+    0,
+    26
+   ],
+   "lam_trk": [
+    true,
+    0,
+    11
+   ],
+   "vecD_trk": [
+    true,
+    0,
+    26
+   ],
+   "LAD_n": 0,
+   "LAD_small_n": 0,
+   "lam_n": 1,
+   "vecD_n": 1,
+   "lam_trk_n": 1,
+   "vecD_trk_n": 1
+  },
+  {
+   "run": "sc06b",
+   "LAD": [
+    false,
+    0,
+    null
+   ],
+   "LAD_small": [
+    false,
+    0,
+    null
+   ],
+   "lam": [
+    true,
+    0,
+    11
+   ],
+   "vecD": [
+    true,
+    0,
+    26
+   ],
+   "lam_trk": [
+    true,
+    0,
+    11
+   ],
+   "vecD_trk": [
+    true,
+    0,
+    26
+   ],
+   "LAD_n": 0,
+   "LAD_small_n": 0,
+   "lam_n": 1,
+   "vecD_n": 1,
+   "lam_trk_n": 1,
+   "vecD_trk_n": 1
+  }
+ ],
+ "summary": {
+  "vecD": {
+   "tp": 8,
+   "n_cp": 8,
+   "recall": 1.0,
+   "recall_ci95": [
+    0.6755843804891231,
+    1.0
+   ],
+   "fp": 24,
+   "precision": 0.25,
+   "far_per_1000": 24.0,
+   "delay_min": 5,
+   "delay_max": 26
+  },
+  "lam": {
+   "tp": 5,
+   "n_cp": 8,
+   "recall": 0.625,
+   "recall_ci95": [
+    0.30573785458380187,
+    0.863158240538479
+   ],
+   "fp": 5,
+   "precision": 0.5,
+   "far_per_1000": 5.0,
+   "delay_min": 5,
+   "delay_max": 13
+  },
+  "LAD": {
+   "tp": 6,
+   "n_cp": 8,
+   "recall": 0.75,
+   "recall_ci95": [
+    0.40926987910258916,
+    0.9285223111419724
+   ],
+   "fp": 0,
+   "precision": 1.0,
+   "far_per_1000": 0.0,
+   "delay_min": 0,
+   "delay_max": 0
+  },
+  "LAD_small": {
+   "tp": 6,
+   "n_cp": 8,
+   "recall": 0.75,
+   "recall_ci95": [
+    0.40926987910258916,
+    0.9285223111419724
+   ],
+   "fp": 13,
+   "precision": 0.3157894736842105,
+   "far_per_1000": 13.0,
+   "delay_min": 0,
+   "delay_max": 0
+  },
+  "vecD_trk": {
+   "tp": 7,
+   "n_cp": 8,
+   "recall": 0.875,
+   "recall_ci95": [
+    0.5291051942301386,
+    0.9775830911367038
+   ],
+   "fp": 13,
+   "precision": 0.35,
+   "far_per_1000": 13.0,
+   "delay_min": 5,
+   "delay_max": 26
+  },
+  "lam_trk": {
+   "tp": 5,
+   "n_cp": 8,
+   "recall": 0.625,
+   "recall_ci95": [
+    0.30573785458380187,
+    0.863158240538479
+   ],
+   "fp": 2,
+   "precision": 0.7142857142857143,
+   "far_per_1000": 2.0,
+   "delay_min": 5,
+   "delay_max": 19
+  }
+ }
+}

@@ -1,0 +1,190 @@
+{
+  "calibration": {
+    "lamDom": 1008.4416013759908,
+    "vecDdom": 24.656039832947013,
+    "ncomp": 3636622945812.9453,
+    "ndom": 3636622945812.9453
+  },
+  "rows": [
+    {
+      "run": "cmsg-inj015a",
+      "lamDom": [
+        false,
+        0,
+        null
+      ],
+      "lamDom_nalarms": 7,
+      "vecDdom": [
+        false,
+        0,
+        null
+      ],
+      "vecDdom_nalarms": 0,
+      "ncomp": [
+        false,
+        0,
+        null
+      ],
+      "ncomp_nalarms": 0
+    },
+    {
+      "run": "cmsg-inj015b",
+      "lamDom": [
+        false,
+        0,
+        null
+      ],
+      "lamDom_nalarms": 0,
+      "vecDdom": [
+        false,
+        0,
+        null
+      ],
+      "vecDdom_nalarms": 0,
+      "ncomp": [
+        false,
+        0,
+        null
+      ],
+      "ncomp_nalarms": 0
+    },
+    {
+      "run": "cmsg-inj030a",
+      "lamDom": [
+        false,
+        0,
+        null
+      ],
+      "lamDom_nalarms": 7,
+      "vecDdom": [
+        false,
+        0,
+        null
+      ],
+      "vecDdom_nalarms": 0,
+      "ncomp": [
+        false,
+        0,
+        null
+      ],
+      "ncomp_nalarms": 0
+    },
+    {
+      "run": "cmsg-inj030b",
+      "lamDom": [
+        false,
+        0,
+        null
+      ],
+      "lamDom_nalarms": 0,
+      "vecDdom": [
+        true,
+        0,
+        16
+      ],
+      "vecDdom_nalarms": 7,
+      "ncomp": [
+        false,
+        0,
+        null
+      ],
+      "ncomp_nalarms": 0
+    },
+    {
+      "run": "cmsg-inj050a",
+      "lamDom": [
+        false,
+        0,
+        null
+      ],
+      "lamDom_nalarms": 1,
+      "vecDdom": [
+        false,
+        0,
+        null
+      ],
+      "vecDdom_nalarms": 0,
+      "ncomp": [
+        false,
+        0,
+        null
+      ],
+      "ncomp_nalarms": 0
+    },
+    {
+      "run": "cmsg-inj050b",
+      "lamDom": [
+        false,
+        0,
+        null
+      ],
+      "lamDom_nalarms": 0,
+      "vecDdom": [
+        false,
+        0,
+        null
+      ],
+      "vecDdom_nalarms": 0,
+      "ncomp": [
+        false,
+        0,
+        null
+      ],
+      "ncomp_nalarms": 0
+    },
+    {
+      "run": "cmsg-sc06a",
+      "lamDom": [
+        false,
+        0,
+        null
+      ],
+      "lamDom_nalarms": 4,
+      "vecDdom": [
+        false,
+        0,
+        null
+      ],
+      "vecDdom_nalarms": 0,
+      "ncomp": [
+        false,
+        0,
+        null
+      ],
+      "ncomp_nalarms": 0
+    },
+    {
+      "run": "cmsg-sc06b",
+      "lamDom": [
+        false,
+        0,
+        null
+      ],
+      "lamDom_nalarms": 4,
+      "vecDdom": [
+        false,
+        0,
+        null
+      ],
+      "vecDdom_nalarms": 0,
+      "ncomp": [
+        false,
+        0,
+        null
+      ],
+      "ncomp_nalarms": 0
+    }
+  ],
+  "totals": {
+    "lamDom": 0,
+    "vecDdom": 1,
+    "ncomp": 0
+  },
+  "fps": {
+    "lamDom": 0,
+    "vecDdom": 0,
+    "ncomp": 0
+  },
+  "inject_seg_idx": 100,
+  "tol": 40
+}

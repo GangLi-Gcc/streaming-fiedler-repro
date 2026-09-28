@@ -1,0 +1,372 @@
+{
+  "config": {
+    "n": 1200,
+    "events": 2500,
+    "seeds": 3,
+    "cp_at": 1250
+  },
+  "summary": [
+    {
+      "config": "bridge_cut",
+      "detector": "cusum_naive",
+      "seeds": 3,
+      "f1_mean": 0.151,
+      "alarms_per_1000_mean": 3.07,
+      "delays": [
+        59.0,
+        null,
+        39.0
+      ]
+    },
+    {
+      "config": "bridge_cut",
+      "detector": "selfnorm_v2",
+      "seeds": 3,
+      "f1_mean": 0.105,
+      "alarms_per_1000_mean": 7.2,
+      "delays": [
+        118.0,
+        122.0,
+        118.0
+      ]
+    },
+    {
+      "config": "control",
+      "detector": "cusum_naive",
+      "seeds": 3,
+      "f1_mean": 0.0,
+      "alarms_per_1000_mean": 3.33,
+      "delays": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "config": "control",
+      "detector": "selfnorm_v2",
+      "seeds": 3,
+      "f1_mean": 0.0,
+      "alarms_per_1000_mean": 6.93,
+      "delays": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "config": "pin_drop",
+      "detector": "cusum_naive",
+      "seeds": 3,
+      "f1_mean": 0.127,
+      "alarms_per_1000_mean": 3.47,
+      "delays": [
+        59.0,
+        null,
+        39.0
+      ]
+    },
+    {
+      "config": "pin_drop",
+      "detector": "selfnorm_v2",
+      "seeds": 3,
+      "f1_mean": 0.107,
+      "alarms_per_1000_mean": 7.07,
+      "delays": [
+        118.0,
+        135.0,
+        118.0
+      ]
+    },
+    {
+      "config": "split",
+      "detector": "cusum_naive",
+      "seeds": 3,
+      "f1_mean": 0.135,
+      "alarms_per_1000_mean": 3.33,
+      "delays": [
+        59.0,
+        null,
+        39.0
+      ]
+    },
+    {
+      "config": "split",
+      "detector": "selfnorm_v2",
+      "seeds": 3,
+      "f1_mean": 0.107,
+      "alarms_per_1000_mean": 7.07,
+      "delays": [
+        118.0,
+        118.0,
+        118.0
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "config": "control",
+      "seed": 0,
+      "detector": "cusum_naive",
+      "tp": 0,
+      "fp": 11,
+      "fn": 0,
+      "f1": 0.0,
+      "mean_delay": null,
+      "alarms_per_1000": 4.4
+    },
+    {
+      "config": "control",
+      "seed": 0,
+      "detector": "selfnorm_v2",
+      "tp": 0,
+      "fp": 18,
+      "fn": 0,
+      "f1": 0.0,
+      "mean_delay": null,
+      "alarms_per_1000": 7.2
+    },
+    {
+      "config": "control",
+      "seed": 1,
+      "detector": "cusum_naive",
+      "tp": 0,
+      "fp": 6,
+      "fn": 0,
+      "f1": 0.0,
+      "mean_delay": null,
+      "alarms_per_1000": 2.4
+    },
+    {
+      "config": "control",
+      "seed": 1,
+      "detector": "selfnorm_v2",
+      "tp": 0,
+      "fp": 16,
+      "fn": 0,
+      "f1": 0.0,
+      "mean_delay": null,
+      "alarms_per_1000": 6.4
+    },
+    {
+      "config": "control",
+      "seed": 2,
+      "detector": "cusum_naive",
+      "tp": 0,
+      "fp": 8,
+      "fn": 0,
+      "f1": 0.0,
+      "mean_delay": null,
+      "alarms_per_1000": 3.2
+    },
+    {
+      "config": "control",
+      "seed": 2,
+      "detector": "selfnorm_v2",
+      "tp": 0,
+      "fp": 18,
+      "fn": 0,
+      "f1": 0.0,
+      "mean_delay": null,
+      "alarms_per_1000": 7.2
+    },
+    {
+      "config": "pin_drop",
+      "seed": 0,
+      "detector": "cusum_naive",
+      "tp": 1,
+      "fp": 9,
+      "fn": 0,
+      "f1": 0.182,
+      "mean_delay": 59.0,
+      "alarms_per_1000": 4.0
+    },
+    {
+      "config": "pin_drop",
+      "seed": 0,
+      "detector": "selfnorm_v2",
+      "tp": 1,
+      "fp": 17,
+      "fn": 0,
+      "f1": 0.105,
+      "mean_delay": 118.0,
+      "alarms_per_1000": 7.2
+    },
+    {
+      "config": "pin_drop",
+      "seed": 1,
+      "detector": "cusum_naive",
+      "tp": 0,
+      "fp": 7,
+      "fn": 1,
+      "f1": 0.0,
+      "mean_delay": null,
+      "alarms_per_1000": 2.8
+    },
+    {
+      "config": "pin_drop",
+      "seed": 1,
+      "detector": "selfnorm_v2",
+      "tp": 1,
+      "fp": 16,
+      "fn": 0,
+      "f1": 0.111,
+      "mean_delay": 135.0,
+      "alarms_per_1000": 6.8
+    },
+    {
+      "config": "pin_drop",
+      "seed": 2,
+      "detector": "cusum_naive",
+      "tp": 1,
+      "fp": 8,
+      "fn": 0,
+      "f1": 0.2,
+      "mean_delay": 39.0,
+      "alarms_per_1000": 3.6
+    },
+    {
+      "config": "pin_drop",
+      "seed": 2,
+      "detector": "selfnorm_v2",
+      "tp": 1,
+      "fp": 17,
+      "fn": 0,
+      "f1": 0.105,
+      "mean_delay": 118.0,
+      "alarms_per_1000": 7.2
+    },
+    {
+      "config": "split",
+      "seed": 0,
+      "detector": "cusum_naive",
+      "tp": 1,
+      "fp": 9,
+      "fn": 0,
+      "f1": 0.182,
+      "mean_delay": 59.0,
+      "alarms_per_1000": 4.0
+    },
+    {
+      "config": "split",
+      "seed": 0,
+      "detector": "selfnorm_v2",
+      "tp": 1,
+      "fp": 17,
+      "fn": 0,
+      "f1": 0.105,
+      "mean_delay": 118.0,
+      "alarms_per_1000": 7.2
+    },
+    {
+      "config": "split",
+      "seed": 1,
+      "detector": "cusum_naive",
+      "tp": 0,
+      "fp": 7,
+      "fn": 1,
+      "f1": 0.0,
+      "mean_delay": null,
+      "alarms_per_1000": 2.8
+    },
+    {
+      "config": "split",
+      "seed": 1,
+      "detector": "selfnorm_v2",
+      "tp": 1,
+      "fp": 16,
+      "fn": 0,
+      "f1": 0.111,
+      "mean_delay": 118.0,
+      "alarms_per_1000": 6.8
+    },
+    {
+      "config": "split",
+      "seed": 2,
+      "detector": "cusum_naive",
+      "tp": 1,
+      "fp": 7,
+      "fn": 0,
+      "f1": 0.222,
+      "mean_delay": 39.0,
+      "alarms_per_1000": 3.2
+    },
+    {
+      "config": "split",
+      "seed": 2,
+      "detector": "selfnorm_v2",
+      "tp": 1,
+      "fp": 17,
+      "fn": 0,
+      "f1": 0.105,
+      "mean_delay": 118.0,
+      "alarms_per_1000": 7.2
+    },
+    {
+      "config": "bridge_cut",
+      "seed": 0,
+      "detector": "cusum_naive",
+      "tp": 1,
+      "fp": 10,
+      "fn": 0,
+      "f1": 0.167,
+      "mean_delay": 59.0,
+      "alarms_per_1000": 4.4
+    },
+    {
+      "config": "bridge_cut",
+      "seed": 0,
+      "detector": "selfnorm_v2",
+      "tp": 1,
+      "fp": 17,
+      "fn": 0,
+      "f1": 0.105,
+      "mean_delay": 118.0,
+      "alarms_per_1000": 7.2
+    },
+    {
+      "config": "bridge_cut",
+      "seed": 1,
+      "detector": "cusum_naive",
+      "tp": 0,
+      "fp": 6,
+      "fn": 1,
+      "f1": 0.0,
+      "mean_delay": null,
+      "alarms_per_1000": 2.4
+    },
+    {
+      "config": "bridge_cut",
+      "seed": 1,
+      "detector": "selfnorm_v2",
+      "tp": 1,
+      "fp": 17,
+      "fn": 0,
+      "f1": 0.105,
+      "mean_delay": 122.0,
+      "alarms_per_1000": 7.2
+    },
+    {
+      "config": "bridge_cut",
+      "seed": 2,
+      "detector": "cusum_naive",
+      "tp": 1,
+      "fp": 5,
+      "fn": 0,
+      "f1": 0.286,
+      "mean_delay": 39.0,
+      "alarms_per_1000": 2.4
+    },
+    {
+      "config": "bridge_cut",
+      "seed": 2,
+      "detector": "selfnorm_v2",
+      "tp": 1,
+      "fp": 17,
+      "fn": 0,
+      "f1": 0.105,
+      "mean_delay": 118.0,
+      "alarms_per_1000": 7.2
+    }
+  ]
+}

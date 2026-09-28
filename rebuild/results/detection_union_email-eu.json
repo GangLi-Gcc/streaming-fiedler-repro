@@ -1,0 +1,88 @@
+{
+ "dataset": "email-eu",
+ "cp": 100,
+ "tol": 40,
+ "n_seg": 166,
+ "eligible_per_stream": 125,
+ "eligible_pooled": 1000,
+ "calibration": {
+  "vecD": 50.60680536166976,
+  "lam": 2674.3938722572357,
+  "vecD_trk": 61.65656409071807,
+  "lam_trk": 2649.9982913312715
+ },
+ "summary": {
+  "vecD": {
+   "tp": 8,
+   "n_cp": 8,
+   "recall": 1.0,
+   "fp": 24,
+   "precision": 0.25,
+   "far_per_1000": 24.0,
+   "delay": [
+    5,
+    26
+   ]
+  },
+  "lam": {
+   "tp": 5,
+   "n_cp": 8,
+   "recall": 0.625,
+   "fp": 5,
+   "precision": 0.5,
+   "far_per_1000": 5.0,
+   "delay": [
+    5,
+    13
+   ]
+  },
+  "vecD_trk": {
+   "tp": 7,
+   "n_cp": 8,
+   "recall": 0.875,
+   "fp": 13,
+   "precision": 0.35,
+   "far_per_1000": 13.0,
+   "delay": [
+    5,
+    26
+   ]
+  },
+  "lam_trk": {
+   "tp": 5,
+   "n_cp": 8,
+   "recall": 0.625,
+   "fp": 2,
+   "precision": 0.7142857142857143,
+   "far_per_1000": 2.0,
+   "delay": [
+    5,
+    19
+   ]
+  },
+  "union_ex": {
+   "tp": 8,
+   "n_cp": 8,
+   "recall": 1.0,
+   "fp": 25,
+   "precision": 0.24242424242424243,
+   "far_per_1000": 25.0,
+   "delay": [
+    5,
+    11
+   ]
+  },
+  "union_tr": {
+   "tp": 7,
+   "n_cp": 8,
+   "recall": 0.875,
+   "fp": 15,
+   "precision": 0.3181818181818182,
+   "far_per_1000": 15.0,
+   "delay": [
+    5,
+    11
+   ]
+  }
+ }
+}

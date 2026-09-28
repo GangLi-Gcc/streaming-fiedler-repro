@@ -1,0 +1,66 @@
+{
+  "quartiles": [
+    {
+      "q": 1,
+      "gap_lo": 13.249288263377831,
+      "gap_hi": 31.38600809132305,
+      "f_branch0_refine": 1.0,
+      "f_branch1_fallback": 0.0,
+      "f_branch2_exact": 0.0,
+      "att_refine_med": 0.08319911353427807,
+      "att_exact_med": null,
+      "att_fallback_med": null,
+      "k_med": 1.0,
+      "k_max": 1.0
+    },
+    {
+      "q": 2,
+      "gap_lo": 31.38600809132305,
+      "gap_hi": 67.85582154146883,
+      "f_branch0_refine": 1.0,
+      "f_branch1_fallback": 0.0,
+      "f_branch2_exact": 0.0,
+      "att_refine_med": 0.004652004063662146,
+      "att_exact_med": null,
+      "att_fallback_med": null,
+      "k_med": 1.0,
+      "k_max": 1.0
+    },
+    {
+      "q": 3,
+      "gap_lo": 67.85582154146883,
+      "gap_hi": 74.60851464582427,
+      "f_branch0_refine": 1.0,
+      "f_branch1_fallback": 0.0,
+      "f_branch2_exact": 0.0,
+      "att_refine_med": 0.0007464345232259826,
+      "att_exact_med": null,
+      "att_fallback_med": null,
+      "k_med": 1.0,
+      "k_max": 1.0
+    },
+    {
+      "q": 4,
+      "gap_lo": 74.60851464582427,
+      "gap_hi": 90.81165533455243,
+      "f_branch0_refine": 1.0,
+      "f_branch1_fallback": 0.0,
+      "f_branch2_exact": 0.0,
+      "att_refine_med": 0.0,
+      "att_exact_med": null,
+      "att_fallback_med": null,
+      "k_med": 1.0,
+      "k_max": 1.0
+    }
+  ],
+  "gate_margin_by_quartile": [
+    0.010068501082117584,
+    0.006896920857742861,
+    0.003336398688533893,
+    0.0024509209116575737
+  ],
+  "spearman_pow": [
+    -0.12138384841587567,
+    0.27137362519386016
+  ]
+}

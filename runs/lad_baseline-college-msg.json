@@ -1,0 +1,367 @@
+{
+  "dataset": "college-msg",
+  "calibration": {
+    "LAD": 0.9999955551224657,
+    "lam": 1.3714202541874525e-07,
+    "vecD": 0.34597766820936643
+  },
+  "calibration_gated": {
+    "LAD": 0.9999955551224657,
+    "lam": 0.0,
+    "vecD": 0.0
+  },
+  "control_connected_frac": 0.01910828025477707,
+  "day388_rank": {},
+  "rows": [
+    {
+      "run": "cmsg-inj015a",
+      "LAD": [
+        false,
+        0,
+        null
+      ],
+      "LAD_nalarms": 0,
+      "lam": [
+        false,
+        1,
+        null
+      ],
+      "lam_nalarms": 1,
+      "vecD": [
+        true,
+        0,
+        15
+      ],
+      "vecD_nalarms": 2
+    },
+    {
+      "run": "cmsg-inj015b",
+      "LAD": [
+        true,
+        0,
+        32
+      ],
+      "LAD_nalarms": 1,
+      "lam": [
+        false,
+        2,
+        null
+      ],
+      "lam_nalarms": 2,
+      "vecD": [
+        true,
+        0,
+        1
+      ],
+      "vecD_nalarms": 8
+    },
+    {
+      "run": "cmsg-inj030a",
+      "LAD": [
+        false,
+        0,
+        null
+      ],
+      "LAD_nalarms": 0,
+      "lam": [
+        false,
+        5,
+        null
+      ],
+      "lam_nalarms": 5,
+      "vecD": [
+        false,
+        5,
+        null
+      ],
+      "vecD_nalarms": 5
+    },
+    {
+      "run": "cmsg-inj030b",
+      "LAD": [
+        false,
+        0,
+        null
+      ],
+      "LAD_nalarms": 0,
+      "lam": [
+        false,
+        0,
+        null
+      ],
+      "lam_nalarms": 0,
+      "vecD": [
+        false,
+        0,
+        null
+      ],
+      "vecD_nalarms": 0
+    },
+    {
+      "run": "cmsg-inj050a",
+      "LAD": [
+        false,
+        0,
+        null
+      ],
+      "LAD_nalarms": 0,
+      "lam": [
+        false,
+        5,
+        null
+      ],
+      "lam_nalarms": 5,
+      "vecD": [
+        false,
+        0,
+        null
+      ],
+      "vecD_nalarms": 0
+    },
+    {
+      "run": "cmsg-inj050b",
+      "LAD": [
+        false,
+        0,
+        null
+      ],
+      "LAD_nalarms": 0,
+      "lam": [
+        false,
+        0,
+        null
+      ],
+      "lam_nalarms": 0,
+      "vecD": [
+        true,
+        10,
+        1
+      ],
+      "vecD_nalarms": 16
+    },
+    {
+      "run": "cmsg-sc06a",
+      "LAD": [
+        false,
+        0,
+        null
+      ],
+      "LAD_nalarms": 0,
+      "lam": [
+        false,
+        2,
+        null
+      ],
+      "lam_nalarms": 2,
+      "vecD": [
+        true,
+        1,
+        37
+      ],
+      "vecD_nalarms": 2
+    },
+    {
+      "run": "cmsg-sc06b",
+      "LAD": [
+        true,
+        0,
+        3
+      ],
+      "LAD_nalarms": 1,
+      "lam": [
+        false,
+        11,
+        null
+      ],
+      "lam_nalarms": 11,
+      "vecD": [
+        true,
+        3,
+        35
+      ],
+      "vecD_nalarms": 9
+    }
+  ],
+  "rows_gated": [
+    {
+      "run": "cmsg-inj015a",
+      "LAD": [
+        false,
+        0,
+        null
+      ],
+      "LAD_nalarms": 0,
+      "lam": [
+        false,
+        0,
+        null
+      ],
+      "lam_nalarms": 0,
+      "vecD": [
+        false,
+        0,
+        null
+      ],
+      "vecD_nalarms": 0
+    },
+    {
+      "run": "cmsg-inj015b",
+      "LAD": [
+        true,
+        0,
+        32
+      ],
+      "LAD_nalarms": 1,
+      "lam": [
+        false,
+        0,
+        null
+      ],
+      "lam_nalarms": 0,
+      "vecD": [
+        false,
+        0,
+        null
+      ],
+      "vecD_nalarms": 0
+    },
+    {
+      "run": "cmsg-inj030a",
+      "LAD": [
+        false,
+        0,
+        null
+      ],
+      "LAD_nalarms": 0,
+      "lam": [
+        false,
+        0,
+        null
+      ],
+      "lam_nalarms": 0,
+      "vecD": [
+        false,
+        0,
+        null
+      ],
+      "vecD_nalarms": 0
+    },
+    {
+      "run": "cmsg-inj030b",
+      "LAD": [
+        false,
+        0,
+        null
+      ],
+      "LAD_nalarms": 0,
+      "lam": [
+        false,
+        0,
+        null
+      ],
+      "lam_nalarms": 0,
+      "vecD": [
+        false,
+        0,
+        null
+      ],
+      "vecD_nalarms": 0
+    },
+    {
+      "run": "cmsg-inj050a",
+      "LAD": [
+        false,
+        0,
+        null
+      ],
+      "LAD_nalarms": 0,
+      "lam": [
+        false,
+        0,
+        null
+      ],
+      "lam_nalarms": 0,
+      "vecD": [
+        false,
+        0,
+        null
+      ],
+      "vecD_nalarms": 0
+    },
+    {
+      "run": "cmsg-inj050b",
+      "LAD": [
+        false,
+        0,
+        null
+      ],
+      "LAD_nalarms": 0,
+      "lam": [
+        false,
+        0,
+        null
+      ],
+      "lam_nalarms": 0,
+      "vecD": [
+        false,
+        0,
+        null
+      ],
+      "vecD_nalarms": 0
+    },
+    {
+      "run": "cmsg-sc06a",
+      "LAD": [
+        false,
+        0,
+        null
+      ],
+      "LAD_nalarms": 0,
+      "lam": [
+        false,
+        0,
+        null
+      ],
+      "lam_nalarms": 0,
+      "vecD": [
+        false,
+        0,
+        null
+      ],
+      "vecD_nalarms": 0
+    },
+    {
+      "run": "cmsg-sc06b",
+      "LAD": [
+        true,
+        0,
+        3
+      ],
+      "LAD_nalarms": 1,
+      "lam": [
+        false,
+        0,
+        null
+      ],
+      "lam_nalarms": 0,
+      "vecD": [
+        false,
+        0,
+        null
+      ],
+      "vecD_nalarms": 0
+    }
+  ],
+  "totals": {
+    "LAD": 2,
+    "lam": 0,
+    "vecD": 5
+  },
+  "totals_gated": {
+    "LAD": 2,
+    "lam": 0,
+    "vecD": 0
+  },
+  "tol": 40,
+  "inject_seg_idx": 100
+}

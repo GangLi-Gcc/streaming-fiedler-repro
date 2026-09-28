@@ -1,0 +1,58 @@
+{
+  "config": {
+    "n": 1200,
+    "events": 3000,
+    "cp_every": 1000,
+    "seed": 0
+  },
+  "changepoints": [
+    {
+      "t": 1000,
+      "kind": "pin_drop"
+    },
+    {
+      "t": 2000,
+      "kind": "split"
+    }
+  ],
+  "tracker": {
+    "restarts": 4,
+    "refines": 2996,
+    "avg_time_ms": 0.8239179670733089,
+    "p95_time_ms": 0.9299850353272627
+  },
+  "baseline": {
+    "avg_time_ms": 150.22588066582102
+  },
+  "accuracy": {
+    "lambda2_rel_err_mean": 0.046356303132379074,
+    "lambda2_rel_err_p95": 0.5263220516233533
+  },
+  "detection": {
+    "tp": 2,
+    "fp": 9,
+    "fn": 0,
+    "delays": [
+      -177,
+      -201
+    ],
+    "mean_delay": -189.0,
+    "precision": 0.18181818181818182,
+    "recall": 1.0,
+    "f1": 0.3076923076923077
+  },
+  "alarms": [
+    324,
+    445,
+    823,
+    944,
+    1187,
+    1308,
+    1799,
+    1920,
+    2065,
+    2315,
+    2681
+  ],
+  "wall_time_s": 50.1484317779541
+}

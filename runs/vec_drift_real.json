@@ -1,0 +1,161 @@
+{
+  "calibration": {
+    "thr_d": 1.349314751153016,
+    "thr_D": 43.606006386624664
+  },
+  "day388_seg_idx": 38,
+  "rows": [
+    {
+      "run": "frac0.15a",
+      "frac": 0.15,
+      "vec_d": [
+        false,
+        0,
+        null
+      ],
+      "vec_D": [
+        true,
+        0,
+        5
+      ],
+      "lam": [
+        true,
+        0,
+        13
+      ]
+    },
+    {
+      "run": "frac0.15b",
+      "frac": 0.15,
+      "vec_d": [
+        false,
+        0,
+        null
+      ],
+      "vec_D": [
+        true,
+        0,
+        6
+      ],
+      "lam": [
+        false,
+        0,
+        null
+      ]
+    },
+    {
+      "run": "frac0.30a",
+      "frac": 0.3,
+      "vec_d": [
+        false,
+        0,
+        null
+      ],
+      "vec_D": [
+        true,
+        0,
+        5
+      ],
+      "lam": [
+        false,
+        0,
+        null
+      ]
+    },
+    {
+      "run": "frac0.30b",
+      "frac": 0.3,
+      "vec_d": [
+        false,
+        0,
+        null
+      ],
+      "vec_D": [
+        true,
+        0,
+        5
+      ],
+      "lam": [
+        true,
+        0,
+        11
+      ]
+    },
+    {
+      "run": "frac0.50a",
+      "frac": 0.5,
+      "vec_d": [
+        false,
+        0,
+        null
+      ],
+      "vec_D": [
+        true,
+        0,
+        5
+      ],
+      "lam": [
+        true,
+        0,
+        5
+      ]
+    },
+    {
+      "run": "frac0.50b",
+      "frac": 0.5,
+      "vec_d": [
+        false,
+        0,
+        null
+      ],
+      "vec_D": [
+        true,
+        0,
+        5
+      ],
+      "lam": [
+        false,
+        0,
+        null
+      ]
+    },
+    {
+      "run": "scale0.6a",
+      "frac": "scale0.6",
+      "vec_d": [
+        false,
+        0,
+        null
+      ],
+      "vec_D": [
+        true,
+        0,
+        26
+      ],
+      "lam": [
+        true,
+        0,
+        11
+      ]
+    },
+    {
+      "run": "scale0.6b",
+      "frac": "scale0.6",
+      "vec_d": [
+        false,
+        0,
+        null
+      ],
+      "vec_D": [
+        true,
+        0,
+        26
+      ],
+      "lam": [
+        true,
+        0,
+        11
+      ]
+    }
+  ]
+}

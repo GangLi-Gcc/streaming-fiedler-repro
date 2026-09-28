@@ -1,0 +1,146 @@
+[
+ {
+  "tag": "email-eu",
+  "dataset": "email-eu",
+  "detected": false,
+  "fp": 0,
+  "delay": null,
+  "n_alarms": 0
+ },
+ {
+  "tag": "inj015a",
+  "dataset": "email-eu",
+  "detected": false,
+  "fp": 1,
+  "delay": null,
+  "n_alarms": 1
+ },
+ {
+  "tag": "inj015b",
+  "dataset": "email-eu",
+  "detected": false,
+  "fp": 1,
+  "delay": null,
+  "n_alarms": 1
+ },
+ {
+  "tag": "inj030a",
+  "dataset": "email-eu",
+  "detected": true,
+  "fp": 0,
+  "delay": 5,
+  "n_alarms": 2
+ },
+ {
+  "tag": "inj030b",
+  "dataset": "email-eu",
+  "detected": true,
+  "fp": 0,
+  "delay": 5,
+  "n_alarms": 1
+ },
+ {
+  "tag": "inj050a",
+  "dataset": "email-eu",
+  "detected": true,
+  "fp": 0,
+  "delay": 5,
+  "n_alarms": 1
+ },
+ {
+  "tag": "inj050b",
+  "dataset": "email-eu",
+  "detected": true,
+  "fp": 0,
+  "delay": 5,
+  "n_alarms": 1
+ },
+ {
+  "tag": "sc06a",
+  "dataset": "email-eu",
+  "detected": false,
+  "fp": 0,
+  "delay": null,
+  "n_alarms": 0
+ },
+ {
+  "tag": "sc06b",
+  "dataset": "email-eu",
+  "detected": false,
+  "fp": 0,
+  "delay": null,
+  "n_alarms": 0
+ },
+ {
+  "tag": "college-msg",
+  "dataset": "college-msg",
+  "detected": false,
+  "fp": 0,
+  "delay": null,
+  "n_alarms": 0
+ },
+ {
+  "tag": "cmsg-inj015a",
+  "dataset": "college-msg",
+  "detected": false,
+  "fp": 0,
+  "delay": null,
+  "n_alarms": 0
+ },
+ {
+  "tag": "cmsg-inj015b",
+  "dataset": "college-msg",
+  "detected": false,
+  "fp": 0,
+  "delay": null,
+  "n_alarms": 0
+ },
+ {
+  "tag": "cmsg-inj030a",
+  "dataset": "college-msg",
+  "detected": false,
+  "fp": 0,
+  "delay": null,
+  "n_alarms": 0
+ },
+ {
+  "tag": "cmsg-inj030b",
+  "dataset": "college-msg",
+  "detected": false,
+  "fp": 0,
+  "delay": null,
+  "n_alarms": 0
+ },
+ {
+  "tag": "cmsg-inj050a",
+  "dataset": "college-msg",
+  "detected": false,
+  "fp": 0,
+  "delay": null,
+  "n_alarms": 0
+ },
+ {
+  "tag": "cmsg-inj050b",
+  "dataset": "college-msg",
+  "detected": false,
+  "fp": 0,
+  "delay": null,
+  "n_alarms": 0
+ },
+ {
+  "tag": "cmsg-sc06a",
+  "dataset": "college-msg",
+  "detected": false,
+  "fp": 0,
+  "delay": null,
+  "n_alarms": 0
+ },
+ {
+  "tag": "cmsg-sc06b",
+  "dataset": "college-msg",
+  "detected": false,
+  "fp": 0,
+  "delay": null,
+  "n_alarms": 0
+ }
+]

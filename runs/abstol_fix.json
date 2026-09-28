@@ -1,0 +1,35 @@
+{
+  "thr_tA": 5.7377906680780185e-06,
+  "rows": [
+    {
+      "run": "inj015b",
+      "delay_old": null,
+      "delay_new": null,
+      "dtr_cp_old": 7.881187935598888e-08,
+      "dtr_cp_new": 2.236744618300257e-06,
+      "eps_cp_old": 0.005744820526344194,
+      "eps_cp_new": 0.0035932486154929472,
+      "k_med_new": 1.0
+    },
+    {
+      "run": "inj030a",
+      "delay_old": null,
+      "delay_new": 0,
+      "dtr_cp_old": 8.012149144143166e-08,
+      "dtr_cp_new": 1.7274205366790696e-05,
+      "eps_cp_old": 0.014380305985535129,
+      "eps_cp_new": 0.00969371522335906,
+      "k_med_new": 1.0
+    },
+    {
+      "run": "inj050b",
+      "delay_old": null,
+      "delay_new": 0,
+      "dtr_cp_old": 1.3208457405600171e-07,
+      "dtr_cp_new": 4.3090527220956965e-05,
+      "eps_cp_old": 0.030900861314890404,
+      "eps_cp_new": 0.02432543193093905,
+      "k_med_new": 1.0
+    }
+  ]
+}

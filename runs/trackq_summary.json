@@ -1,0 +1,65 @@
+{
+  "eps_good": 0.05,
+  "control_reliable_prefix_end": 22,
+  "thr_exact": 1.0401902913561409e-05,
+  "thr_tracked": 0.9934815720756018,
+  "threshold_ratio": 95509.59861203445,
+  "rows": [
+    {
+      "run": "inj015b",
+      "frac": 0.15,
+      "raw_spike": [
+        false,
+        null
+      ],
+      "vecD_z": [
+        false,
+        0,
+        null
+      ],
+      "reliable_frac": 0.8674698795180723
+    },
+    {
+      "run": "inj030a",
+      "frac": 0.3,
+      "raw_spike": [
+        false,
+        null
+      ],
+      "vecD_z": [
+        false,
+        0,
+        null
+      ],
+      "reliable_frac": 0.8674698795180723
+    },
+    {
+      "run": "inj050b",
+      "frac": 0.5,
+      "raw_spike": [
+        false,
+        null
+      ],
+      "vecD_z": [
+        false,
+        0,
+        null
+      ],
+      "reliable_frac": 0.8674698795180723
+    },
+    {
+      "run": "sc06a",
+      "frac": "scale0.6",
+      "raw_spike": [
+        false,
+        null
+      ],
+      "vecD_z": [
+        false,
+        0,
+        null
+      ],
+      "reliable_frac": 0.8674698795180723
+    }
+  ]
+}

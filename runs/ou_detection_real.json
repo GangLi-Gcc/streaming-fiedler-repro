@@ -1,0 +1,101 @@
+{
+  "ar1": {
+    "mu": 9.465490754064978,
+    "phi": 0.9987572606800242,
+    "sigma_eps": 0.16979157264827624
+  },
+  "calibration": {
+    "h_cusum": 10.290255678922582,
+    "thr_z": 2674.3938605453573
+  },
+  "rows": [
+    {
+      "run": "frac0.15a",
+      "frac": 0.15,
+      "shift_lambda": -0.103,
+      "cusum_det": false,
+      "cusum_fp": 0,
+      "cusum_delay": null,
+      "z_det": true,
+      "z_fp": 0,
+      "z_delay": 13
+    },
+    {
+      "run": "frac0.15b",
+      "frac": 0.15,
+      "shift_lambda": 2.727,
+      "cusum_det": false,
+      "cusum_fp": 0,
+      "cusum_delay": null,
+      "z_det": false,
+      "z_fp": 0,
+      "z_delay": null
+    },
+    {
+      "run": "frac0.30a",
+      "frac": 0.3,
+      "shift_lambda": 1.676,
+      "cusum_det": false,
+      "cusum_fp": 0,
+      "cusum_delay": null,
+      "z_det": false,
+      "z_fp": 0,
+      "z_delay": null
+    },
+    {
+      "run": "frac0.30b",
+      "frac": 0.3,
+      "shift_lambda": -0.608,
+      "cusum_det": false,
+      "cusum_fp": 0,
+      "cusum_delay": null,
+      "z_det": true,
+      "z_fp": 0,
+      "z_delay": 11
+    },
+    {
+      "run": "frac0.50a",
+      "frac": 0.5,
+      "shift_lambda": -5.593,
+      "cusum_det": false,
+      "cusum_fp": 0,
+      "cusum_delay": null,
+      "z_det": true,
+      "z_fp": 0,
+      "z_delay": 5
+    },
+    {
+      "run": "frac0.50b",
+      "frac": 0.5,
+      "shift_lambda": 1.59,
+      "cusum_det": false,
+      "cusum_fp": 0,
+      "cusum_delay": null,
+      "z_det": false,
+      "z_fp": 0,
+      "z_delay": null
+    },
+    {
+      "run": "scale0.6a",
+      "frac": "scale0.6",
+      "shift_lambda": -1.326,
+      "cusum_det": false,
+      "cusum_fp": 0,
+      "cusum_delay": null,
+      "z_det": true,
+      "z_fp": 0,
+      "z_delay": 11
+    },
+    {
+      "run": "scale0.6b",
+      "frac": "scale0.6",
+      "shift_lambda": -1.326,
+      "cusum_det": false,
+      "cusum_fp": 0,
+      "cusum_delay": null,
+      "z_det": true,
+      "z_fp": 0,
+      "z_delay": 11
+    }
+  ]
+}

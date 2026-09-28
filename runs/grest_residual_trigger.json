@@ -1,0 +1,557 @@
+[
+ {
+  "w_hub": 0.0,
+  "seed": 0,
+  "n": 300,
+  "warmstart": {
+   "att_med_all": 0.9989252731477988,
+   "att_med_nonrestart": 0.9987665347564135,
+   "n_steps_scored": 7,
+   "n_restart": 2,
+   "final_drift": 0.0,
+   "ms_per_step": 3.035374994700154
+  },
+  "grest_K5": {
+   "att_med_all": 0.0651005942448306,
+   "att_med_nonrestart": 0.0651005942448306,
+   "n_steps_scored": 7,
+   "n_restart": 1,
+   "final_drift": 0.0003329046129098012,
+   "ms_per_step": 1.449591664519782
+  },
+  "grest_K5_p4": {
+   "att_med_all": 0.07377106108113693,
+   "att_med_nonrestart": 0.06396117836567393,
+   "n_steps_scored": 7,
+   "n_restart": 7,
+   "final_drift": 5.551115123125783e-16,
+   "ms_per_step": 3.2770666633344567
+  },
+  "grest_K5_rtrig": {
+   "att_med_all": 0.06510059431253747,
+   "att_med_nonrestart": 0.062102650400385644,
+   "n_steps_scored": 7,
+   "n_restart": 5,
+   "final_drift": 0.0,
+   "ms_per_step": 2.7782500110333785
+  }
+ },
+ {
+  "w_hub": 0.0,
+  "seed": 1,
+  "n": 300,
+  "warmstart": {
+   "att_med_all": 0.9984134020338259,
+   "att_med_nonrestart": 0.9983837540649848,
+   "n_steps_scored": 7,
+   "n_restart": 2,
+   "final_drift": 4.440892098500626e-16,
+   "ms_per_step": 2.556566658313386
+  },
+  "grest_K5": {
+   "att_med_all": 0.06315370881699832,
+   "att_med_nonrestart": 0.06315370881699832,
+   "n_steps_scored": 7,
+   "n_restart": 1,
+   "final_drift": 0.0004520702217885031,
+   "ms_per_step": 1.356375001099271
+  },
+  "grest_K5_p4": {
+   "att_med_all": 0.07197890360359262,
+   "att_med_nonrestart": 0.061995828137213396,
+   "n_steps_scored": 7,
+   "n_restart": 7,
+   "final_drift": 1.1102230246251565e-16,
+   "ms_per_step": 3.4125416520206877
+  },
+  "grest_K5_rtrig": {
+   "att_med_all": 0.06315370842735875,
+   "att_med_nonrestart": 0.060108671828644746,
+   "n_steps_scored": 7,
+   "n_restart": 5,
+   "final_drift": 2.220446049250313e-16,
+   "ms_per_step": 2.61392499669455
+  }
+ },
+ {
+  "w_hub": 0.0,
+  "seed": 2,
+  "n": 300,
+  "warmstart": {
+   "att_med_all": 0.9981493653803845,
+   "att_med_nonrestart": 0.9981268930382071,
+   "n_steps_scored": 7,
+   "n_restart": 2,
+   "final_drift": 0.0,
+   "ms_per_step": 3.044108336325735
+  },
+  "grest_K5": {
+   "att_med_all": 0.05539323769982975,
+   "att_med_nonrestart": 0.05539323769982975,
+   "n_steps_scored": 7,
+   "n_restart": 1,
+   "final_drift": 0.00030621972430999733,
+   "ms_per_step": 1.4789500128244981
+  },
+  "grest_K5_p4": {
+   "att_med_all": 0.06334806660180407,
+   "att_med_nonrestart": 0.054416939150902385,
+   "n_steps_scored": 7,
+   "n_restart": 7,
+   "final_drift": 4.440892098500626e-16,
+   "ms_per_step": 3.2476916773399958
+  },
+  "grest_K5_rtrig": {
+   "att_med_all": 0.05539323829454257,
+   "att_med_nonrestart": 0.05267600832779819,
+   "n_steps_scored": 7,
+   "n_restart": 5,
+   "final_drift": 1.1102230246251565e-16,
+   "ms_per_step": 2.564150000883577
+  }
+ },
+ {
+  "w_hub": 0.0,
+  "seed": 3,
+  "n": 300,
+  "warmstart": {
+   "att_med_all": 0.998880553347767,
+   "att_med_nonrestart": 0.9986739103721558,
+   "n_steps_scored": 7,
+   "n_restart": 3,
+   "final_drift": 0.0,
+   "ms_per_step": 2.9935083293821663
+  },
+  "grest_K5": {
+   "att_med_all": 0.12529489327791135,
+   "att_med_nonrestart": 0.12529489327791135,
+   "n_steps_scored": 7,
+   "n_restart": 1,
+   "final_drift": 0.00025597458363002534,
+   "ms_per_step": 1.2897749984404072
+  },
+  "grest_K5_p4": {
+   "att_med_all": 0.13777996340236492,
+   "att_med_nonrestart": 0.12325105397627985,
+   "n_steps_scored": 7,
+   "n_restart": 7,
+   "final_drift": -2.220446049250313e-16,
+   "ms_per_step": 3.1760250033888346
+  },
+  "grest_K5_rtrig": {
+   "att_med_all": 0.1252948930311876,
+   "att_med_nonrestart": 0.12078258272300389,
+   "n_steps_scored": 7,
+   "n_restart": 5,
+   "final_drift": 7.771561172376096e-16,
+   "ms_per_step": 2.433608349141044
+  }
+ },
+ {
+  "w_hub": 0.0,
+  "seed": 4,
+  "n": 300,
+  "warmstart": {
+   "att_med_all": 0.9952467636848487,
+   "att_med_nonrestart": 0.9948408056644888,
+   "n_steps_scored": 7,
+   "n_restart": 2,
+   "final_drift": 1.1102230246251565e-16,
+   "ms_per_step": 2.8486749943112954
+  },
+  "grest_K5": {
+   "att_med_all": 0.09257775558237649,
+   "att_med_nonrestart": 0.09257775558237649,
+   "n_steps_scored": 7,
+   "n_restart": 1,
+   "final_drift": 0.0005563673222925836,
+   "ms_per_step": 1.5134833374759182
+  },
+  "grest_K5_p4": {
+   "att_med_all": 0.09983742347521898,
+   "att_med_nonrestart": 0.08607480331542991,
+   "n_steps_scored": 7,
+   "n_restart": 7,
+   "final_drift": 2.220446049250313e-16,
+   "ms_per_step": 3.3040583269515387
+  },
+  "grest_K5_rtrig": {
+   "att_med_all": 0.0925777554627373,
+   "att_med_nonrestart": 0.08767688526075607,
+   "n_steps_scored": 7,
+   "n_restart": 5,
+   "final_drift": 1.1102230246251565e-16,
+   "ms_per_step": 2.6251416614589593
+  }
+ },
+ {
+  "w_hub": 10.0,
+  "seed": 0,
+  "n": 301,
+  "warmstart": {
+   "att_med_all": 0.40392500958945093,
+   "att_med_nonrestart": 0.398297093810795,
+   "n_steps_scored": 7,
+   "n_restart": 2,
+   "final_drift": 0.0,
+   "ms_per_step": 3.051274994504638
+  },
+  "grest_K5": {
+   "att_med_all": 0.0009700613795370627,
+   "att_med_nonrestart": 0.0009700613795370627,
+   "n_steps_scored": 7,
+   "n_restart": 1,
+   "final_drift": 0.000692700977856231,
+   "ms_per_step": 1.4124833348129566
+  },
+  "grest_K5_p4": {
+   "att_med_all": 0.0011006844942262237,
+   "att_med_nonrestart": 0.0009466895551059374,
+   "n_steps_scored": 7,
+   "n_restart": 7,
+   "final_drift": -2.220446049250313e-16,
+   "ms_per_step": 3.7818083316475772
+  },
+  "grest_K5_rtrig": {
+   "att_med_all": 0.0009700609150306804,
+   "att_med_nonrestart": 0.0009234720327201152,
+   "n_steps_scored": 7,
+   "n_restart": 5,
+   "final_drift": 5.551115123125783e-16,
+   "ms_per_step": 3.2088083389680833
+  }
+ },
+ {
+  "w_hub": 10.0,
+  "seed": 1,
+  "n": 301,
+  "warmstart": {
+   "att_med_all": 0.12824559706041908,
+   "att_med_nonrestart": 0.12076428803978156,
+   "n_steps_scored": 8,
+   "n_restart": 3,
+   "final_drift": 3.3306690738754696e-16,
+   "ms_per_step": 3.738250001333654
+  },
+  "grest_K5": {
+   "att_med_all": 0.8469538016288178,
+   "att_med_nonrestart": 0.8469538016288178,
+   "n_steps_scored": 8,
+   "n_restart": 1,
+   "final_drift": 0.0006610313009025592,
+   "ms_per_step": 1.572716665881065
+  },
+  "grest_K5_p4": {
+   "att_med_all": 0.8784864881386547,
+   "att_med_nonrestart": 0.8255483088625084,
+   "n_steps_scored": 8,
+   "n_restart": 7,
+   "final_drift": 0.0,
+   "ms_per_step": 3.7778333401850737
+  },
+  "grest_K5_rtrig": {
+   "att_med_all": 0.8469538018583129,
+   "att_med_nonrestart": 0.8262190939968889,
+   "n_steps_scored": 8,
+   "n_restart": 5,
+   "final_drift": -2.220446049250313e-16,
+   "ms_per_step": 2.962741670974841
+  }
+ },
+ {
+  "w_hub": 10.0,
+  "seed": 2,
+  "n": 301,
+  "warmstart": {
+   "att_med_all": 0.20834139279438277,
+   "att_med_nonrestart": 0.19595786294399384,
+   "n_steps_scored": 7,
+   "n_restart": 3,
+   "final_drift": 3.3306690738754696e-16,
+   "ms_per_step": 3.45956667054755
+  },
+  "grest_K5": {
+   "att_med_all": 0.7333477857620673,
+   "att_med_nonrestart": 0.7333477857620673,
+   "n_steps_scored": 7,
+   "n_restart": 1,
+   "final_drift": 0.0007525934369546627,
+   "ms_per_step": 1.611758324240024
+  },
+  "grest_K5_p4": {
+   "att_med_all": 0.7811813514088858,
+   "att_med_nonrestart": 0.6979700407229662,
+   "n_steps_scored": 7,
+   "n_restart": 7,
+   "final_drift": 0.0,
+   "ms_per_step": 3.484375003608875
+  },
+  "grest_K5_rtrig": {
+   "att_med_all": 0.7333477857002587,
+   "att_med_nonrestart": 0.7067553565536937,
+   "n_steps_scored": 7,
+   "n_restart": 5,
+   "final_drift": -2.220446049250313e-16,
+   "ms_per_step": 2.814124998015662
+  }
+ },
+ {
+  "w_hub": 10.0,
+  "seed": 3,
+  "n": 301,
+  "warmstart": {
+   "att_med_all": 0.35390726062758787,
+   "att_med_nonrestart": 0.3475067812250172,
+   "n_steps_scored": 7,
+   "n_restart": 2,
+   "final_drift": -2.220446049250313e-16,
+   "ms_per_step": 2.7977249992545694
+  },
+  "grest_K5": {
+   "att_med_all": 0.0014397589491707238,
+   "att_med_nonrestart": 0.0014397589491707238,
+   "n_steps_scored": 7,
+   "n_restart": 1,
+   "final_drift": 0.0007301817954992185,
+   "ms_per_step": 1.2912499951198697
+  },
+  "grest_K5_p4": {
+   "att_med_all": 0.0016539869338094123,
+   "att_med_nonrestart": 0.001380483752044972,
+   "n_steps_scored": 7,
+   "n_restart": 7,
+   "final_drift": 2.220446049250313e-16,
+   "ms_per_step": 2.988266666458609
+  },
+  "grest_K5_rtrig": {
+   "att_med_all": 0.0014397588741691142,
+   "att_med_nonrestart": 0.001356739122779952,
+   "n_steps_scored": 7,
+   "n_restart": 5,
+   "final_drift": 0.0,
+   "ms_per_step": 2.544633335977172
+  }
+ },
+ {
+  "w_hub": 10.0,
+  "seed": 4,
+  "n": 301,
+  "warmstart": {
+   "att_med_all": 0.3665249974242952,
+   "att_med_nonrestart": 0.360840673588565,
+   "n_steps_scored": 7,
+   "n_restart": 2,
+   "final_drift": 5.551115123125783e-16,
+   "ms_per_step": 2.775099996749001
+  },
+  "grest_K5": {
+   "att_med_all": 0.004407436921904688,
+   "att_med_nonrestart": 0.004407436921904688,
+   "n_steps_scored": 7,
+   "n_restart": 1,
+   "final_drift": 0.0005870027986178972,
+   "ms_per_step": 1.2669000037324925
+  },
+  "grest_K5_p4": {
+   "att_med_all": 0.004892379647888736,
+   "att_med_nonrestart": 0.004164016204469261,
+   "n_steps_scored": 7,
+   "n_restart": 7,
+   "final_drift": 2.220446049250313e-16,
+   "ms_per_step": 3.010500004165806
+  },
+  "grest_K5_rtrig": {
+   "att_med_all": 0.004407436299592801,
+   "att_med_nonrestart": 0.004180894842532152,
+   "n_steps_scored": 7,
+   "n_restart": 5,
+   "final_drift": -2.220446049250313e-16,
+   "ms_per_step": 2.5035250049162037
+  }
+ },
+ {
+  "w_hub": 30.0,
+  "seed": 0,
+  "n": 301,
+  "warmstart": {
+   "att_med_all": 0.10530401043249248,
+   "att_med_nonrestart": 0.09974538254316465,
+   "n_steps_scored": 6,
+   "n_restart": 2,
+   "final_drift": 2.220446049250313e-16,
+   "ms_per_step": 2.8241333153952533
+  },
+  "grest_K5": {
+   "att_med_all": 0.001227804558061377,
+   "att_med_nonrestart": 0.001227804558061377,
+   "n_steps_scored": 6,
+   "n_restart": 1,
+   "final_drift": 0.00047919058186352004,
+   "ms_per_step": 1.3651416666107252
+  },
+  "grest_K5_p4": {
+   "att_med_all": 0.0015516994554961633,
+   "att_med_nonrestart": 0.0011762556033185199,
+   "n_steps_scored": 6,
+   "n_restart": 7,
+   "final_drift": 3.3306690738754696e-16,
+   "ms_per_step": 3.451933322745996
+  },
+  "grest_K5_rtrig": {
+   "att_med_all": 0.0012278047328579695,
+   "att_med_nonrestart": 0.001122047519515021,
+   "n_steps_scored": 6,
+   "n_restart": 5,
+   "final_drift": -2.220446049250313e-16,
+   "ms_per_step": 2.7316000050632283
+  }
+ },
+ {
+  "w_hub": 30.0,
+  "seed": 1,
+  "n": 301,
+  "warmstart": {
+   "att_med_all": 0.018361776936014276,
+   "att_med_nonrestart": 0.016994792357482746,
+   "n_steps_scored": 8,
+   "n_restart": 3,
+   "final_drift": 2.220446049250313e-16,
+   "ms_per_step": 3.3559500006958842
+  },
+  "grest_K5": {
+   "att_med_all": 0.8653027941231002,
+   "att_med_nonrestart": 0.8653027941231002,
+   "n_steps_scored": 8,
+   "n_restart": 1,
+   "final_drift": 0.0008066182839590041,
+   "ms_per_step": 1.3149000151315704
+  },
+  "grest_K5_p4": {
+   "att_med_all": 0.9002089139513729,
+   "att_med_nonrestart": 0.8428257055363142,
+   "n_steps_scored": 8,
+   "n_restart": 7,
+   "final_drift": -4.440892098500626e-16,
+   "ms_per_step": 3.139933328687524
+  },
+  "grest_K5_rtrig": {
+   "att_med_all": 0.865302794192312,
+   "att_med_nonrestart": 0.8429706523914691,
+   "n_steps_scored": 8,
+   "n_restart": 5,
+   "final_drift": 0.0,
+   "ms_per_step": 2.5875333424968026
+  }
+ },
+ {
+  "w_hub": 30.0,
+  "seed": 2,
+  "n": 301,
+  "warmstart": {
+   "att_med_all": 0.03445004268142321,
+   "att_med_nonrestart": 0.0317418623326147,
+   "n_steps_scored": 7,
+   "n_restart": 3,
+   "final_drift": 3.3306690738754696e-16,
+   "ms_per_step": 3.280274996844431
+  },
+  "grest_K5": {
+   "att_med_all": 0.7535915705940499,
+   "att_med_nonrestart": 0.7535915705940499,
+   "n_steps_scored": 7,
+   "n_restart": 1,
+   "final_drift": 0.0009326691629083506,
+   "ms_per_step": 1.2761583396544058
+  },
+  "grest_K5_p4": {
+   "att_med_all": 0.8074883291875425,
+   "att_med_nonrestart": 0.7173181376678296,
+   "n_steps_scored": 7,
+   "n_restart": 7,
+   "final_drift": -4.440892098500626e-16,
+   "ms_per_step": 3.163725011593973
+  },
+  "grest_K5_rtrig": {
+   "att_med_all": 0.753591570763979,
+   "att_med_nonrestart": 0.7247870706302424,
+   "n_steps_scored": 7,
+   "n_restart": 5,
+   "final_drift": -2.220446049250313e-16,
+   "ms_per_step": 2.557725000466841
+  }
+ },
+ {
+  "w_hub": 30.0,
+  "seed": 3,
+  "n": 301,
+  "warmstart": {
+   "att_med_all": 0.0728385168395042,
+   "att_med_nonrestart": 0.07095936844188515,
+   "n_steps_scored": 7,
+   "n_restart": 2,
+   "final_drift": -2.220446049250313e-16,
+   "ms_per_step": 2.575583329113821
+  },
+  "grest_K5": {
+   "att_med_all": 0.0013783778060267912,
+   "att_med_nonrestart": 0.0013783778060267912,
+   "n_steps_scored": 7,
+   "n_restart": 1,
+   "final_drift": 0.0007908745319551436,
+   "ms_per_step": 1.2418249971233308
+  },
+  "grest_K5_p4": {
+   "att_med_all": 0.0015797917352387023,
+   "att_med_nonrestart": 0.001304758037360124,
+   "n_steps_scored": 7,
+   "n_restart": 7,
+   "final_drift": -4.440892098500626e-16,
+   "ms_per_step": 2.852924987867785
+  },
+  "grest_K5_rtrig": {
+   "att_med_all": 0.0013783771655801475,
+   "att_med_nonrestart": 0.0012814589916460065,
+   "n_steps_scored": 7,
+   "n_restart": 7,
+   "final_drift": 1.1102230246251565e-16,
+   "ms_per_step": 2.8263500037913523
+  }
+ },
+ {
+  "w_hub": 30.0,
+  "seed": 4,
+  "n": 301,
+  "warmstart": {
+   "att_med_all": 0.0883298147543562,
+   "att_med_nonrestart": 0.0883298147543562,
+   "n_steps_scored": 6,
+   "n_restart": 1,
+   "final_drift": 0.0001411622566149795,
+   "ms_per_step": 2.411583346353533
+  },
+  "grest_K5": {
+   "att_med_all": 0.002954634839069559,
+   "att_med_nonrestart": 0.002954634839069559,
+   "n_steps_scored": 6,
+   "n_restart": 1,
+   "final_drift": 0.00037819796945126605,
+   "ms_per_step": 1.2869500011826556
+  },
+  "grest_K5_p4": {
+   "att_med_all": 0.003789007935255478,
+   "att_med_nonrestart": 0.0028046876398207868,
+   "n_steps_scored": 6,
+   "n_restart": 7,
+   "final_drift": -4.440892098500626e-16,
+   "ms_per_step": 3.1974666635505855
+  },
+  "grest_K5_rtrig": {
+   "att_med_all": 0.002954635327054583,
+   "att_med_nonrestart": 0.002678355348819603,
+   "n_steps_scored": 6,
+   "n_restart": 5,
+   "final_drift": -2.220446049250313e-16,
+   "ms_per_step": 2.562541665004877
+  }
+ }
+]

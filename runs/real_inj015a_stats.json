@@ -1,0 +1,22 @@
+{
+  "dataset": "email-eu",
+  "stats": {
+    "lam_mean": 3.1288903453227253,
+    "lam_std": 4.037728705861584,
+    "wander_ratio": 1.2904666703636485,
+    "inc_std": 0.24212145080949254,
+    "inc_mean": 0.021932809606862242,
+    "max_abs_window_z": 6.298123334710635,
+    "p99_abs_window_z": 6.078395901191327,
+    "samples": 466,
+    "sample_every_edges": 500,
+    "baseline_avg_time_ms": 5.663923605554038
+  },
+  "tag": "inj015a",
+  "tau_edges": 20000,
+  "n_nodes": 300,
+  "inject_sample": 400,
+  "inject_frac": 0.15,
+  "inject_scale": null,
+  "inject_seed": 1
+}

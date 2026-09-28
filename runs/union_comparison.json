@@ -1,0 +1,152 @@
+{
+ "email-Eu": {
+  "n_samples": 466,
+  "tol": 40,
+  "eligible_total": 3400,
+  "rows": [
+   {
+    "detector": "Ours: vec-D only",
+    "channels": [
+     "vecD"
+    ],
+    "detected": 8,
+    "n_cps": 8,
+    "fp": 24,
+    "precision": 0.25,
+    "far_per_1000": 7.0588235294117645
+   },
+   {
+    "detector": "Ours: $\\lambda_2$-z only",
+    "channels": [
+     "lam"
+    ],
+    "detected": 5,
+    "n_cps": 8,
+    "fp": 5,
+    "precision": 0.5,
+    "far_per_1000": 1.4705882352941178
+   },
+   {
+    "detector": "Ours: vec-D $\\cup$ $\\lambda_2$-z",
+    "channels": [
+     "vecD",
+     "lam"
+    ],
+    "detected": 8,
+    "n_cps": 8,
+    "fp": 29,
+    "precision": 0.21621621621621623,
+    "far_per_1000": 8.529411764705882
+   },
+   {
+    "detector": "LAD (replayed)",
+    "channels": [
+     "LAD"
+    ],
+    "detected": 3,
+    "n_cps": 8,
+    "fp": 3,
+    "precision": 0.5,
+    "far_per_1000": 0.8823529411764706
+   },
+   {
+    "detector": "SCPD (replayed)",
+    "channels": [
+     "SCPD"
+    ],
+    "detected": 4,
+    "n_cps": 8,
+    "fp": 2,
+    "precision": 0.6666666666666666,
+    "far_per_1000": 0.5882352941176471
+   },
+   {
+    "detector": "LAD $\\cup$ SCPD",
+    "channels": [
+     "LAD",
+     "SCPD"
+    ],
+    "detected": 5,
+    "n_cps": 8,
+    "fp": 5,
+    "precision": 0.5,
+    "far_per_1000": 1.4705882352941178
+   }
+  ]
+ },
+ "CollegeMsg": {
+  "n_samples": 177,
+  "tol": 40,
+  "eligible_total": 1088,
+  "rows": [
+   {
+    "detector": "Ours: vec-D only",
+    "channels": [
+     "vecD"
+    ],
+    "detected": 5,
+    "n_cps": 8,
+    "fp": 19,
+    "precision": 0.20833333333333334,
+    "far_per_1000": 17.46323529411765
+   },
+   {
+    "detector": "Ours: $\\lambda_2$-z only",
+    "channels": [
+     "lam"
+    ],
+    "detected": 0,
+    "n_cps": 8,
+    "fp": 26,
+    "precision": 0.0,
+    "far_per_1000": 23.897058823529413
+   },
+   {
+    "detector": "Ours: vec-D $\\cup$ $\\lambda_2$-z",
+    "channels": [
+     "vecD",
+     "lam"
+    ],
+    "detected": 5,
+    "n_cps": 8,
+    "fp": 45,
+    "precision": 0.1,
+    "far_per_1000": 41.36029411764706
+   },
+   {
+    "detector": "LAD (replayed)",
+    "channels": [
+     "LAD"
+    ],
+    "detected": 2,
+    "n_cps": 8,
+    "fp": 0,
+    "precision": 1.0,
+    "far_per_1000": 0.0
+   },
+   {
+    "detector": "SCPD (replayed)",
+    "channels": [
+     "SCPD"
+    ],
+    "detected": 0,
+    "n_cps": 8,
+    "fp": 0,
+    "precision": 0.0,
+    "far_per_1000": 0.0
+   },
+   {
+    "detector": "LAD $\\cup$ SCPD",
+    "channels": [
+     "LAD",
+     "SCPD"
+    ],
+    "detected": 2,
+    "n_cps": 8,
+    "fp": 0,
+    "precision": 1.0,
+    "far_per_1000": 0.0
+   }
+  ]
+ }
+}

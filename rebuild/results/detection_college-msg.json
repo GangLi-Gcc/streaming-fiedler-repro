@@ -1,0 +1,423 @@
+{
+ "dataset": "college-msg",
+ "stationary0": 20,
+ "cp": 100,
+ "tol": 40,
+ "n_seg": 157,
+ "calibration": {
+  "LAD": 0.0016915096267191578,
+  "LAD_small": 0.9999131448533513,
+  "lam": 0.3199393790414851,
+  "vecD": 0.23883941473121445,
+  "lam_trk": 0.5841815788944643,
+  "vecD_trk": 2.541013969628013
+ },
+ "valid_nonevent_pooled": {
+  "LAD": 840,
+  "LAD_small": 840,
+  "lam": 608,
+  "vecD": 528,
+  "lam_trk": 608,
+  "vecD_trk": 528
+ },
+ "rows": [
+  {
+   "run": "cmsg-inj015a",
+   "LAD": [
+    false,
+    0,
+    null
+   ],
+   "LAD_small": [
+    false,
+    0,
+    null
+   ],
+   "lam": [
+    false,
+    1,
+    null
+   ],
+   "vecD": [
+    true,
+    3,
+    17
+   ],
+   "lam_trk": [
+    false,
+    0,
+    null
+   ],
+   "vecD_trk": [
+    false,
+    0,
+    null
+   ],
+   "LAD_n": 0,
+   "LAD_small_n": 0,
+   "lam_n": 1,
+   "vecD_n": 4,
+   "lam_trk_n": 0,
+   "vecD_trk_n": 0
+  },
+  {
+   "run": "cmsg-inj015b",
+   "LAD": [
+    false,
+    0,
+    null
+   ],
+   "LAD_small": [
+    false,
+    0,
+    null
+   ],
+   "lam": [
+    false,
+    7,
+    null
+   ],
+   "vecD": [
+    true,
+    18,
+    5
+   ],
+   "lam_trk": [
+    false,
+    0,
+    null
+   ],
+   "vecD_trk": [
+    false,
+    0,
+    null
+   ],
+   "LAD_n": 0,
+   "LAD_small_n": 0,
+   "lam_n": 7,
+   "vecD_n": 19,
+   "lam_trk_n": 0,
+   "vecD_trk_n": 0
+  },
+  {
+   "run": "cmsg-inj030a",
+   "LAD": [
+    false,
+    1,
+    null
+   ],
+   "LAD_small": [
+    false,
+    0,
+    null
+   ],
+   "lam": [
+    false,
+    0,
+    null
+   ],
+   "vecD": [
+    true,
+    6,
+    8
+   ],
+   "lam_trk": [
+    false,
+    0,
+    null
+   ],
+   "vecD_trk": [
+    false,
+    0,
+    null
+   ],
+   "LAD_n": 1,
+   "LAD_small_n": 0,
+   "lam_n": 0,
+   "vecD_n": 7,
+   "lam_trk_n": 0,
+   "vecD_trk_n": 0
+  },
+  {
+   "run": "cmsg-inj030b",
+   "LAD": [
+    false,
+    0,
+    null
+   ],
+   "LAD_small": [
+    false,
+    0,
+    null
+   ],
+   "lam": [
+    false,
+    4,
+    null
+   ],
+   "vecD": [
+    true,
+    25,
+    3
+   ],
+   "lam_trk": [
+    false,
+    0,
+    null
+   ],
+   "vecD_trk": [
+    false,
+    0,
+    null
+   ],
+   "LAD_n": 0,
+   "LAD_small_n": 0,
+   "lam_n": 4,
+   "vecD_n": 26,
+   "lam_trk_n": 0,
+   "vecD_trk_n": 0
+  },
+  {
+   "run": "cmsg-inj050a",
+   "LAD": [
+    true,
+    1,
+    0
+   ],
+   "LAD_small": [
+    false,
+    0,
+    null
+   ],
+   "lam": [
+    true,
+    5,
+    36
+   ],
+   "vecD": [
+    true,
+    6,
+    25
+   ],
+   "lam_trk": [
+    true,
+    0,
+    5
+   ],
+   "vecD_trk": [
+    false,
+    0,
+    null
+   ],
+   "LAD_n": 2,
+   "LAD_small_n": 0,
+   "lam_n": 6,
+   "vecD_n": 7,
+   "lam_trk_n": 1,
+   "vecD_trk_n": 0
+  },
+  {
+   "run": "cmsg-inj050b",
+   "LAD": [
+    true,
+    2,
+    0
+   ],
+   "LAD_small": [
+    false,
+    0,
+    null
+   ],
+   "lam": [
+    false,
+    1,
+    null
+   ],
+   "vecD": [
+    true,
+    19,
+    22
+   ],
+   "lam_trk": [
+    false,
+    0,
+    null
+   ],
+   "vecD_trk": [
+    false,
+    0,
+    null
+   ],
+   "LAD_n": 3,
+   "LAD_small_n": 0,
+   "lam_n": 1,
+   "vecD_n": 20,
+   "lam_trk_n": 0,
+   "vecD_trk_n": 0
+  },
+  {
+   "run": "cmsg-sc06a",
+   "LAD": [
+    false,
+    0,
+    null
+   ],
+   "LAD_small": [
+    true,
+    0,
+    21
+   ],
+   "lam": [
+    false,
+    10,
+    null
+   ],
+   "vecD": [
+    true,
+    12,
+    20
+   ],
+   "lam_trk": [
+    false,
+    0,
+    null
+   ],
+   "vecD_trk": [
+    false,
+    0,
+    null
+   ],
+   "LAD_n": 0,
+   "LAD_small_n": 1,
+   "lam_n": 10,
+   "vecD_n": 13,
+   "lam_trk_n": 0,
+   "vecD_trk_n": 0
+  },
+  {
+   "run": "cmsg-sc06b",
+   "LAD": [
+    false,
+    0,
+    null
+   ],
+   "LAD_small": [
+    true,
+    0,
+    20
+   ],
+   "lam": [
+    false,
+    7,
+    null
+   ],
+   "vecD": [
+    true,
+    13,
+    0
+   ],
+   "lam_trk": [
+    false,
+    2,
+    null
+   ],
+   "vecD_trk": [
+    false,
+    0,
+    null
+   ],
+   "LAD_n": 0,
+   "LAD_small_n": 1,
+   "lam_n": 7,
+   "vecD_n": 14,
+   "lam_trk_n": 2,
+   "vecD_trk_n": 0
+  }
+ ],
+ "summary": {
+  "vecD": {
+   "tp": 8,
+   "n_cp": 8,
+   "recall": 1.0,
+   "recall_ci95": [
+    0.6755843804891231,
+    1.0
+   ],
+   "fp": 102,
+   "precision": 0.07272727272727272,
+   "far_per_1000": 109.91379310344827,
+   "delay_min": 0,
+   "delay_max": 25
+  },
+  "lam": {
+   "tp": 1,
+   "n_cp": 8,
+   "recall": 0.125,
+   "recall_ci95": [
+    0.02241690886329617,
+    0.4708948057698615
+   ],
+   "fp": 35,
+   "precision": 0.027777777777777776,
+   "far_per_1000": 37.71551724137931,
+   "delay_min": 36,
+   "delay_max": 36
+  },
+  "LAD": {
+   "tp": 2,
+   "n_cp": 8,
+   "recall": 0.25,
+   "recall_ci95": [
+    0.07147768885802763,
+    0.5907301208974108
+   ],
+   "fp": 4,
+   "precision": 0.3333333333333333,
+   "far_per_1000": 4.310344827586207,
+   "delay_min": 0,
+   "delay_max": 0
+  },
+  "LAD_small": {
+   "tp": 2,
+   "n_cp": 8,
+   "recall": 0.25,
+   "recall_ci95": [
+    0.07147768885802763,
+    0.5907301208974108
+   ],
+   "fp": 0,
+   "precision": 1.0,
+   "far_per_1000": 0.0,
+   "delay_min": 20,
+   "delay_max": 21
+  },
+  "vecD_trk": {
+   "tp": 0,
+   "n_cp": 8,
+   "recall": 0.0,
+   "recall_ci95": [
+    0.0,
+    0.3244156195108769
+   ],
+   "fp": 0,
+   "precision": 0.0,
+   "far_per_1000": 0.0,
+   "delay_min": null,
+   "delay_max": null
+  },
+  "lam_trk": {
+   "tp": 1,
+   "n_cp": 8,
+   "recall": 0.125,
+   "recall_ci95": [
+    0.02241690886329617,
+    0.4708948057698615
+   ],
+   "fp": 2,
+   "precision": 0.3333333333333333,
+   "far_per_1000": 2.1551724137931036,
+   "delay_min": 5,
+   "delay_max": 5
+  }
+ }
+}
