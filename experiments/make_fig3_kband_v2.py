@@ -60,6 +60,32 @@ gest_m = cfg_med(gest)
 med = cfg_med(lambda k: theta_i[k])
 nbr = {c: sum(1 for k in theta_i if (k[0], k[1]) == c) for c in configs}
 
+# ---- archive the 43 per-seed bootstrap inputs (tab:seedinputs / mdr_seed_inputs.json) ----
+_seed_rows = []
+for key in sorted(theta_i):
+    pn, wh, sd = key
+    _seed_rows.append({
+        "p_near": pn, "w_hub": wh, "seed": sd,
+        "theta_i": theta_i[key],
+        "gap_i": prop(key, "gap"),
+        "stiff_i": prop(key, "stiff"),
+    })
+_seed_out = {
+    "note": "Seed-level bootstrap inputs: the 43 bracketed seeds, each with its "
+            "per-seed first in-grid att>=0.5 crossing angle theta_i, and the "
+            "per-seed gap and stiffness read at the smallest delta. The nine "
+            "configuration medians of tab:mtrsum and the seed-level bootstrap of "
+            "eq:mdr/eq:mdr2 (resample these seeds within each setting with "
+            "replacement, preserving (theta_i,gap_i,stiff_i) tuples, recompute the "
+            "nine medians, refit OLS; 10^4 draws, 2.5/97.5 percentiles, "
+            "default_rng(0)) are computed from exactly these tuples.",
+    "n_bracketed_seeds": len(_seed_rows),
+    "rows": _seed_rows,
+}
+_seed_path = ROOT / "rebuild" / "results" / "mdr_seed_inputs.json"
+json.dump(_seed_out, open(_seed_path, "w", encoding="utf-8"), indent=1)
+print(f"wrote {_seed_path} with {len(_seed_rows)} rows")
+
 def ols(x):
     lx, ly = np.log10(np.array([x[c] for c in configs])), np.log10(np.array([med[c] for c in configs]))
     A = np.vstack([lx, np.ones_like(lx)]).T
