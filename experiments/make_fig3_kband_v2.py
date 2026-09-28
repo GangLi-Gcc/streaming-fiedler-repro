@@ -57,6 +57,39 @@ ks = thetas / gaps ** a
 k_lo, k_hi = float(ks.min()), float(ks.max())
 print(f"band k = MTR/gap^{a:.3f}: [{k_lo:.4e}, {k_hi:.4e}], ratio {k_hi/k_lo:.3f}")
 
+# ---- two-predictor fit (stiffness + gap), bootstrap CIs, per-config table ----
+stiff_cfg = {}
+for (pn, wh) in {(k[0], k[1]) for k in theta_i}:
+    stiff_cfg[(pn, wh)] = float(np.median(
+        [r["stiff"] for r in recs if r["p_near"] == pn and r["w_hub"] == wh
+         and r["delta"] == DELTAS[0]]))
+stiffs = np.array([stiff_cfg[c] for c in configs])
+L2 = np.vstack([np.log10(stiffs), lx, np.ones_like(lx)]).T
+c2 = np.linalg.lstsq(L2, ly, rcond=None)[0]
+r2_2 = 1 - float(((ly - L2 @ c2) ** 2).sum()) / float(((ly - ly.mean()) ** 2).sum())
+print(f"two-predictor: log10(MTR) = {c2[0]:.4f}*log10(stiff) + {c2[1]:.4f}*log10(gap) + {c2[2]:.4f}, R2={r2_2:.4f}")
+
+rng = np.random.default_rng(0)
+nboot = 10000
+def boot_ci(X):
+    out = []
+    for _ in range(nboot):
+        idx = rng.choice(len(ly), len(ly), replace=True)
+        out.append(np.linalg.lstsq(X[idx], ly[idx], rcond=None)[0])
+    out = np.array(out)
+    return [(float(np.percentile(out[:, j], 2.5)), float(np.percentile(out[:, j], 97.5)))
+            for j in range(out.shape[1])]
+A1 = np.vstack([lx, np.ones_like(lx)]).T
+ci1 = boot_ci(A1)
+print(f"gap-only gap coeff CI95: [{ci1[0][0]:.3f}, {ci1[0][1]:.3f}]")
+ci2 = boot_ci(L2)
+print(f"two-pred stiff coeff CI95: [{ci2[0][0]:.3f}, {ci2[0][1]:.3f}] | gap coeff CI95: [{ci2[1][0]:.3f}, {ci2[1][1]:.3f}]")
+
+print("nine-config summary (p_near, w, gap, stiff, n_br, med MTR, k):")
+for c in configs:
+    nbr = sum(1 for k in theta_i if (k[0], k[1]) == c)
+    print(f"  {c[0]:.3f} {c[1]:.1f} {gap[c]:.6e} {stiff_cfg[c]:.4f} {nbr} {med[c]:.6e} {med[c]/gap[c]**a:.6e}")
+
 # ---- plot: x = gap^a, y = theta_i ----
 fig, ax = plt.subplots(figsize=(3.4, 2.6))
 xs = np.logspace(np.log10((gaps ** a).min()) - 0.15, np.log10((gaps ** a).max()) + 0.15, 60)
