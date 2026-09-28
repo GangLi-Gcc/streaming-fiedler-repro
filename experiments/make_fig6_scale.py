@@ -22,7 +22,7 @@ for ax_idx, (ax, what) in enumerate(zip(axes, ["k_by_n", "corr_by_n"])):
             ns, meds, q25s, q75s = [], [], [], []
             for n_per in [250, 500, 1000]:
                 rows = [r for r in valid if r["n_per"]==n_per and r["w_hub"]==w]
-                ks = np.array([r["k"] for r in rows])
+                ks = np.array([r["theta_star"]/r["gap"]**0.278 for r in rows])
                 ns.append(2*n_per)
                 meds.append(np.median(ks))
                 q25s.append(np.percentile(ks, 25))
@@ -35,20 +35,20 @@ for ax_idx, (ax, what) in enumerate(zip(axes, ["k_by_n", "corr_by_n"])):
         ax.set_xticks([500, 1000, 2000])
         ax.set_xticklabels(["500", "1000", "2000"])
         ax.set_xlabel("Graph size $n$")
-        ax.set_ylabel(r"$k = \theta^*/\sqrt{s}$")
+        ax.set_ylabel(r"$k = \theta^*/\Delta^{0.28}$")
         ax.set_title("(a) Proportionality constant $k$ vs. scale")
         ax.legend(fontsize=8)
         ax.grid(True, which="both", alpha=0.3)
     else:
-        # Spearman corr of log(theta*) vs log(sqrt_stiff) within each scale
+        # Spearman corr of log(theta*) vs log(gap) within each scale
         from scipy.stats import spearmanr
         ns, rhos = [], []
         for n_per in [250, 500, 1000]:
             rows = [r for r in valid if r["n_per"]==n_per]
             if rows:
                 ts = np.log([r["theta_star"] for r in rows])
-                ss = np.log([r["sqrt_stiff"] for r in rows])
-                rho, _ = spearmanr(ss, ts)
+                gs = np.log([r["gap"] for r in rows])
+                rho, _ = spearmanr(gs, ts)
                 ns.append(2*n_per); rhos.append(rho)
         ax.bar(range(len(ns)), rhos, color="#607D8B", alpha=0.8)
         ax.set_xticks(range(len(ns)))
@@ -56,12 +56,12 @@ for ax_idx, (ax, what) in enumerate(zip(axes, ["k_by_n", "corr_by_n"])):
         ax.set_xlabel("Graph size $n$")
         ax.set_ylabel(r"Spearman $\rho$")
         ax.set_ylim(0, 1)
-        ax.set_title(r"(b) Rank correlation of $\theta^*$ vs $\sqrt{s}$")
+        ax.set_title(r"(b) Rank correlation of $\theta^*$ vs $\Delta$")
         ax.axhline(0.7, color="gray", linestyle="--", linewidth=0.8, label="$\\rho=0.7$")
         ax.legend(fontsize=8)
         ax.grid(True, axis="y", alpha=0.3)
 
 plt.tight_layout(pad=1.0)
-out = ROOT / "paper-nc" / "figures" / "fig6_scale.pdf"
+out = ROOT / "figures" / "fig6_scale.pdf"
 plt.savefig(out, bbox_inches="tight", dpi=150)
 print(f"saved: {out}")
